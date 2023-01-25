@@ -1,0 +1,9 @@
+POST http://localhost:4000/v1/register
+Content-Type: application/json
+
+{
+ "user_name": "Nipun",
+ "user_email": "N@n.com",
+ "password": "1234",
+ "is_admin": false
+}
